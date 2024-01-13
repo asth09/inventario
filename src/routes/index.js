@@ -45,14 +45,15 @@ getVersionFolders().forEach((version) => {
   loadVersionRoutes(versionPrefix, versionPath)
 });
 
-if (process.env.NODE_ENV === "test") {
+
   module.exports = {
     getVersionFolders,
     removeExtension,
     loadVersionRoutes,
+    router
   };
-} 
 
 
-module.exports = router;
+
+
 

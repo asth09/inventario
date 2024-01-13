@@ -1,10 +1,9 @@
 const {
   getVersionFolders,
   removeExtension,
-  loadVersionRoutes,
-} = require("../../src/routes");
+} = require("../../../src/routes");
 const fs = require("fs");
-const path = require("path");
+
 describe("router utils functions", () => {
   describe("getVersionFolders", () => {
     it("should be a function", () => {

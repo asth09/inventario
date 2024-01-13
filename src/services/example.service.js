@@ -1,7 +1,7 @@
-const { MOCKE_EXAMPLE } = require("../database/models/example")
+
 
 const getAllExample = () => {
-    return MOCKE_EXAMPLE
+    
 }
 
 const getDetail = (id) => {

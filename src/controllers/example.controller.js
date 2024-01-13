@@ -1,8 +1,8 @@
 const exampleService = require("../../src/services/example.service")
 
 const getItem = (req, res) => {
-    const data = exampleService.getAllExample()
-    res.send({data})
+    
+     res.render('login')
 }
 
 const getDetail = (req, res) => {
